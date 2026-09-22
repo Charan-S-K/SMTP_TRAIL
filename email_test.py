@@ -31,7 +31,7 @@ def send_mail(rec,sub,body):
         print(f"Error for email sending: {e}")
 
 if __name__=="__main__":
-    rec="dhyan0962@gmail.com"
+    rec=""
 
     otp = generate_otp()
     print("Generated OTP:", otp)
